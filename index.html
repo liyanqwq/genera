@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
+    />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="LiYan" />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+      integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/liyanqwq/genera@0.1.1/assets/css/main.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.jsdelivr.net/gh/liyanqwq/genera@0.1.1/assets/img/default-site-logo.png"
+    />
+    <title>Genera</title>
+  </head>
+  <body>
+    <div class="app-main">
+      <div class="mdui-card" id="app-form-card">
+        <div class="mdui-card-header">
+          <img
+            class="mdui-card-header-avatar"
+            id="site-logo"
+            src="https://cdn.jsdelivr.net/gh/liyanqwq/genera@0.1.1/assets/img/default-site-logo.png"
+          />
+          <div class="mdui-card-header-title" id="site-title">Genera</div>
+          <div class="mdui-card-header-subtitle" id="site-subtitle">
+            Powered by Genera
+          </div>
+        </div>
+        <div class="mdui-card-content">
+          <form id="generate-form" method="post">
+            <div id="form-labels"></div>
+            <button
+              class="mdui-btn mdui-shadow-0 mdui-btn-raised mdui-ripple"
+              type="submit"
+            >
+              生成
+            </button>
+            <button
+              class="mdui-btn mdui-shadow-0 mdui-btn-raised mdui-ripple"
+              id="reset"
+            >
+              重置
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="mdui-card" id="app-result-card">
+        <div class="mdui-card-content">
+          <div id="app-result"></div>
+        </div>
+      </div>
+      <footer>
+        <a href="//github.com/liyanqwq">LiYan</a> |
+        <a href="//github.com/liyanqwq/jiaran-emulator">GitHub</a> | AGPL-v3
+      </footer>
+    </div>
+    <div class="bg-overlay"></div>
+    <!-- JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+      integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/juicer@0.6.15/build/juicer-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/liyanqwq/genera@0.1.1/assets/js/main.js"></script>
+  </body>
+</html>

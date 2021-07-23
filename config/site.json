@@ -1,0 +1,6 @@
+{
+  "site-name": "Genera 测试站",
+  "site-slogan": "这是一个简明的示范。<a href=\"docs/\">[文档]</a>",
+  "site-logo": "https://cdn.jsdelivr.net/gh/liyanqwq/genera@0.1.1/assets/img/default-site-logo.png",
+  "bg-image": "url(\"https://img-cdn.haozi.xyz/2021/07/21/709b3d0c86498d66ed86baea9f95c6ed.jpg\")"
+}
